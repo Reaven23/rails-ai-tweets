@@ -1,0 +1,4 @@
+<%= simple_form_for @tweet do |f| %>
+  <%= f.input :long, placeholder: "Long text", required: true %>
+  <%= f.button :submit, 'Create tweet', class: 'btn btn-primary' %>
+<% end %>
